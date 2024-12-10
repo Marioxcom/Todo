@@ -5,5 +5,5 @@
 - Deberes
 - Tutoriales
 
-## Token Clase
+## Token HTTPS
 > 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
