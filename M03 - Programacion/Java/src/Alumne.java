@@ -42,6 +42,10 @@ public class Alumne {
     public void setDni(String dni) {
         this.dni = dni;
     }
-    public Alumne buscarAlumnes (int )
-}
 
+    @Override
+    public String toString() {
+        return "Alumne (" +
+                "nom: '" + nom + '\'' + ", cognoms: '" + cognoms + '\'' + ", edat: " + edat +  ", dni: '" + dni + ")";
+    }
+}

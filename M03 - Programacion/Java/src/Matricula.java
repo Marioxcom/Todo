@@ -3,7 +3,6 @@ public class Matricula {
     private Modul modul;
     private int nota;
 
-
     public Matricula(Alumne alumne, Modul modul, int nota) {
         this.alumne = alumne;
         this.modul = modul;
@@ -32,5 +31,10 @@ public class Matricula {
 
     public void setNota(int nota) {
         this.nota = nota;
+    }
+
+    @Override
+    public String toString() {
+        return "Matricula {" + alumne + "} {" + modul + "} = nota: " + nota + " }";
     }
 }

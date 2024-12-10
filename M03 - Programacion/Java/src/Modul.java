@@ -12,4 +12,11 @@ public class Modul {
     public void setNomModul(String nomModul) {
         this.nomModul = nomModul;
     }
+
+    @Override
+    public String toString() {
+        return "Modul (" +
+                "nomModul: '" + nomModul + '\'' +
+                ')';
+    }
 }
